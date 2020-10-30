@@ -85,7 +85,7 @@ header nav{
     justify-content: space-around;
 }
 .links a{
-    text-decoration: none;
+    text-decoration: none;color:#000000;
 }
 .titleImage{
     margin: 1% 30%;
