@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -65,43 +65,77 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* Style for navigation and logo */
 header nav{
-    /* border: 1px solid grey; */
     width: 800px;
     margin: auto 30%;
     display: flex;
     align-items: baseline;
     justify-content: space-around;
-    
 }
 .logo{
-    width: 20%;
-    margin: .5%;
+    width: 30%;
+    margin: 1% auto;
 }
 .links{
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
 .links a{
     text-decoration: none;
 }
+/* Style for top image */
 .titleImage{
-    margin: 1% 30%;
-    /* display: flex; */
-    /* align-items: center; */
-}
-.about-page{
-    border: 1px solid grey;
+    width: 100%;
+    border: 2px solid grey;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+}
+.titleImage img{
+    width:40%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.about{
+    width:40%;
+    margin: 1% 30%;
+    padding-bottom: 1%;
+    border-bottom:1px dashed black;
 }
 /* style for boxes */
-.about{
-    width: 30%;
+.container{
+    /* width: 40%; */
+    border: 2px solid red;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+}
+.strategy{
+    width: 20%;
+    border: 2px solid blue;
+    margin: auto 10%; 
+}
+.work{
+    width: 20%;
+    border: 2px solid blue; 
+    margin: auto 10%; 
+}
+.places{
+    width: 20%;
+    border: 2px solid blue;
+    margin: auto 10%; 
+}
+.collaboration{
+    width: 20%;
+    border: 2px solid blue;
+    margin: auto 10%; 
 }
 
-
+/* styles for footer */
 footer {
     width: 60%;
     background: black;
