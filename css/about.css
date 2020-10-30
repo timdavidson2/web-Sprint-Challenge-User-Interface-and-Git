@@ -94,6 +94,7 @@ header nav{
 .about-page{
     border: 1px solid grey;
     display: flex;
+    flex-wrap: wrap;
 }
 /* style for boxes */
 .about{
@@ -102,8 +103,12 @@ header nav{
 
 
 footer {
-    width: 100%;
+    width: 60%;
     background: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 1% 30%;
 }
 
 footer nav {
