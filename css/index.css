@@ -66,6 +66,32 @@ p {
     line-height: 1.4;
 }
 
+header nav{
+    /* border: 1px solid grey; */
+    width: 800px;
+    margin: auto 30%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    
+}
+.logo{
+    width: 20%;
+    margin: .5%;
+}
+.links{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.links a{
+    text-decoration: none;
+}
+.titleImage{
+    margin: 1% 30%;
+    /* display: flex; */
+    /* align-items: center; */
+}
 .container {
     width: 800px;
     margin: 0 auto;
