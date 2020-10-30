@@ -91,3 +91,32 @@ header nav{
     /* display: flex; */
     /* align-items: center; */
 }
+.about-page{
+    border: 1px solid grey;
+    display: flex;
+}
+/* style for boxes */
+.about{
+    width: 30%;
+}
+
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
