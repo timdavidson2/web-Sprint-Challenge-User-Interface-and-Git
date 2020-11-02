@@ -1,6 +1,5 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -65,74 +64,73 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-/* Style for navigation and logo */
+
 header nav{
+    /* border: 1px solid grey; */
     width: 800px;
     margin: auto 30%;
     display: flex;
     align-items: baseline;
     justify-content: space-around;
+    
 }
 .logo{
-    width: 30%;
+    width: 20%;
     margin: 1% auto;
 }
 .links{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
 }
 .links a{
-    text-decoration: none;
+    text-decoration: none;color:#000000;
 }
-/* Style for top image */
 .titleImage{
-    width: 100%;
-    border: 2px solid grey;
-    display: flex;
-    justify-content: center;
+    margin: 1% 30%;
+    /* display: flex; */
+    /* align-items: center; */
 }
-.titleImage img{
-    width:40%;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    
+.container {
+    width: 800px;
+    margin: 0 auto;
 }
 
 .about{
-    width:40%;
+    width:800px;
     margin: 1% 30%;
     padding-bottom: 1%;
     border-bottom:1px dashed black;
 }
 /* style for boxes */
 .container{
-    /* width: 40%; */
-    border: 2px solid red;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* justify-items: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .strategy{
-    width: 20%;
-    border: 2px solid blue;
-    margin: auto 10%; 
+    width: 10%;
+    /* margin: auto 10%;  */
 }
 .work{
-    width: 20%;
-    border: 2px solid blue; 
-    margin: auto 10%; 
+    width: 10%; 
+    /* margin: auto 10%;  */
 }
 .places{
-    width: 20%;
-    border: 2px solid blue;
-    margin: auto 10%; 
+    width: 10%;
+    /* margin: auto 10%;  */
 }
 .collaboration{
-    width: 20%;
-    border: 2px solid blue;
-    margin: auto 10%; 
+    width: 10%;
+    /* margin: auto 10%;  */
+}
+.worktogether{
+    width: 60%;
+    background: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 1% 30%;
 }
 
 /* styles for footer */
