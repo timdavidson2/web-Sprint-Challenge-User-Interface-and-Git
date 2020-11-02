@@ -79,91 +79,130 @@ header nav{
     
 }
 .logo{
-    width: 40%;
+    width: 20%;
     margin: 1% auto;
 }
 .links{
-    width: 60%;
+    width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .links a{
     text-decoration: none;color:#000000;
 }
 .titleImage{
-    margin: 1% 30%;
+    margin:0 30%;
     /* display: flex; */
     /* align-items: center; */
 }
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
-
 .about{
-    width:800px;
-    margin: 1% 30%;
-    padding-bottom: 1%;
-    border-bottom:1px dashed black;
+    width: 800px;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    margin: auto;  
+    border-bottom: 1px dashed black;
 }
-
 /* Styles for boxes */
 .container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    width: 800px;
+    margin: 100px auto; 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
 .strategy{
+    /* border: 1px solid black; */
     width:300px;
-    margin-bottom: 4%;
-    /* padding-bottom: 3%; */
+    padding: 3%;
+    margin: auto;
     border-bottom:1px dashed black;
 }
 .strategy img{
     width: 300px;
+    margin-bottom: 20px;
+}
+.strategy p{
+    margin-bottom: 20px;
 }
 .strategy a{
     text-decoration: none;
     color: black;
     border: 2px solid black;
-    padding: 4%;
+    padding: 1% 4%;
     border-radius: 10px;
-    margin: 5% auto;
+    margin-bottom: 20px;
 }
 
 .work{
     width:300px;
-    /* margin: 1% 30%; */
-    /* padding: 2% 3%; */
+    padding: 3%;
+    margin: auto;
     border-bottom:1px dashed black;
 }
 .work img{
     width: 300px;
+    margin-bottom: 20px;
+}
+.work p{
+    margin-bottom: 20px;
+}
+.work a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 1% 4%;
+    border-radius: 10px;
+    margin: 20px auto;
 }
 .places{
     width:300px;
-    /* margin: 1% 30%; */
-    padding: 2%;
+    padding: 3%;
+    margin: auto;
     border-bottom:1px dashed black;
 }
 .places img{
     width: 300px;
+    margin-bottom: 20px;
+}
+.places p{
+    margin-bottom: 20px;
+}
+.places a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 1% 4%;
+    border-radius: 10px;
+    margin: 20px auto;
 }
 .collaboration{
     width:300px;
-    /* margin: 1% 30%; */
-    padding-bottom: 1%;
+    padding: 3%;
+    margin: auto;
     border-bottom:1px dashed black;
 }
 .collaboration img{
     width: 300px;
+    margin-bottom: 20px;
+}
+.collaboration p{
+    margin-bottom: 20px;
+}
+.collaboration a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 1% 4%;
+    border-radius: 10px;
+    margin: 30px auto;
 }
 
 /* style for worktogether */
 .workTogether{
     width:800px;
-    margin: 2% 30%;
+    margin: auto;
     padding-bottom: 1%;
 }
 /* styles for footer */
@@ -173,7 +212,7 @@ footer {
     display: flex;
     align-items: center;
     /* justify-content: center; */
-    margin: 1% 30%;
+    margin:auto;
 }
 
 footer nav {
