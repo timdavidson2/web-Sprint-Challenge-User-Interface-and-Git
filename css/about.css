@@ -64,7 +64,11 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+*{  
+    /* border: 1px solid black; */
+}
 
+/* header styling */
 header nav{
     /* border: 1px solid grey; */
     width: 800px;
@@ -75,13 +79,13 @@ header nav{
     
 }
 .logo{
-    width: 20%;
+    width: 40%;
     margin: 1% auto;
 }
 .links{
-    width: 90%;
+    width: 60%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .links a{
     text-decoration: none;color:#000000;
@@ -102,40 +106,69 @@ header nav{
     padding-bottom: 1%;
     border-bottom:1px dashed black;
 }
-/* style for boxes */
+
+/* Styles for boxes */
 .container{
+    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 .strategy{
-    width: 10%;
-    /* margin: auto 10%;  */
+    width:300px;
+    margin-bottom: 4%;
+    /* padding-bottom: 3%; */
+    border-bottom:1px dashed black;
 }
-.work{
-    width: 10%; 
-    /* margin: auto 10%;  */
+.strategy img{
+    width: 300px;
 }
-.places{
-    width: 10%;
-    /* margin: auto 10%;  */
-}
-.collaboration{
-    width: 10%;
-    /* margin: auto 10%;  */
-}
-.worktogether{
-    width: 60%;
-    background: black;
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    margin: 1% 30%;
+.strategy a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 4%;
+    border-radius: 10px;
+    margin: 5% auto;
 }
 
+.work{
+    width:300px;
+    /* margin: 1% 30%; */
+    /* padding: 2% 3%; */
+    border-bottom:1px dashed black;
+}
+.work img{
+    width: 300px;
+}
+.places{
+    width:300px;
+    /* margin: 1% 30%; */
+    padding: 2%;
+    border-bottom:1px dashed black;
+}
+.places img{
+    width: 300px;
+}
+.collaboration{
+    width:300px;
+    /* margin: 1% 30%; */
+    padding-bottom: 1%;
+    border-bottom:1px dashed black;
+}
+.collaboration img{
+    width: 300px;
+}
+
+/* style for worktogether */
+.workTogether{
+    width:800px;
+    margin: 2% 30%;
+    padding-bottom: 1%;
+}
 /* styles for footer */
 footer {
-    width: 60%;
+    width: 800px;
     background: black;
     display: flex;
     align-items: center;
