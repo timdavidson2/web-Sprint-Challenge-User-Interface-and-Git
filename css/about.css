@@ -15,7 +15,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	/* margin: 0; */
 	padding: 0;
 	/* border: 0; */
 	font-size: 100%;
@@ -69,31 +69,41 @@ p {
 }
 
 /* header styling */
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 header nav{
     /* border: 1px solid grey; */
     width: 800px;
-    margin: auto 30%;
+    /* margin: auto 30%; */
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-around;
-    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 .logo{
     width: 20%;
     margin: 1% auto;
+    text-align: left;
 }
 .links{
-    width: 90%;
+    width: 80%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .links a{
     text-decoration: none;color:#000000;
 }
 .titleImage{
-    margin:0 30%;
-    /* display: flex; */
-    /* align-items: center; */
+    margin: 1%;
+    display: flex;
+    justify-content: center;
 }
 .about{
     width: 800px;
@@ -106,21 +116,22 @@ header nav{
 .container{
     /* border: 1px solid black; */
     width: 800px;
-    margin: 100px auto; 
+    margin:auto; 
+    /* padding: 10%; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
 }
 .strategy{
-    /* border: 1px solid black; */
-    width:300px;
+    width:400px;
     padding: 3%;
-    margin: auto;
+    /* padding-bottom: 3%;
+    padding-right: 3%; */
+    /* margin: 2% 2% 2% 27.5%; */
     border-bottom:1px dashed black;
 }
 .strategy img{
-    width: 300px;
+    width: 100%;
     margin-bottom: 20px;
 }
 .strategy p{
@@ -136,13 +147,15 @@ header nav{
 }
 
 .work{
-    width:300px;
+    width: 400px;
     padding: 3%;
-    margin: auto;
+    /* padding-bottom: 3%;
+    padding-left: 3%; */
+    /* margin: 2% 2% 2% 27.5%; */
     border-bottom:1px dashed black;
 }
 .work img{
-    width: 300px;
+    width: 100%;
     margin-bottom: 20px;
 }
 .work p{
@@ -157,13 +170,15 @@ header nav{
     margin: 20px auto;
 }
 .places{
-    width:300px;
+    width:400px;
     padding: 3%;
-    margin: auto;
+    /* padding-bottom: 3%;
+    padding-right: 3%; */
+    /* margin: 2% auto 2% 27.5%; */
     border-bottom:1px dashed black;
 }
 .places img{
-    width: 300px;
+    width: 100%;
     margin-bottom: 20px;
 }
 .places p{
@@ -178,13 +193,15 @@ header nav{
     margin: 20px auto;
 }
 .collaboration{
-    width:300px;
+    width:400px;
     padding: 3%;
-    margin: auto;
+    /* padding-bottom: 3%;
+    padding-left: 3%; */
+    /* margin: 2% auto 2% 27.5%; */
     border-bottom:1px dashed black;
 }
 .collaboration img{
-    width: 300px;
+    width: 100%;
     margin-bottom: 20px;
 }
 .collaboration p{
